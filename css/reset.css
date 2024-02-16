@@ -1,0 +1,31 @@
+*{margin: 0; /* 밖여백 */padding: 0; /* 안여백 */vertical-align: middle;box-sizing: border-box;}
+
+
+html, body{width: 100%; /* 너비 */height: 100%; /* 높이 */}
+
+
+html{font: normal 14px/1 'Nanum Gothic', 'Noto Sans' /* 폰트 패밀리: 글꼴의 묶음 */   /* 여기가 rem의 루트 */;overflow-y: scroll;}
+
+
+body{color: #333;background: #111;}
+
+
+ul{list-style: none;}
+
+
+a{color: #333;text-decoration: none;}
+
+
+i, em, address{font-style: normal;}
+
+
+header, main, footer, section,nav, aside {display: block;}
+
+
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+
+
+.hide {display: none;}
+
+
+.blind {text-indent: -2000000px; overflow: hidden; display: block;}
